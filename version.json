@@ -1,6 +1,9 @@
 {
-  "version": "2.1.0",
-  "download_url": "https://github.com/crooked-star/greybeard/releases/latest/download/Greybeard.pkg",
-  "release_notes_url": "https://crooked-star.github.io/greybeard/#changelog",
-  "published": "2026-02-20"
+  "stable": null,
+  "rc": {
+    "version": "2.1.0-rc.1",
+    "download_url": "https://github.com/crooked-star/greybeard/releases/download/v2.1.0-rc.1/Greybeard-v2.1.0.pkg",
+    "changelog": [],
+    "published": "2026-02-19"
+  }
 }
