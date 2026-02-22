@@ -1,12 +1,12 @@
 {
   "stable": null,
   "rc": {
-    "version": "2.1.0-rc.5",
-    "download_url": "https://github.com/crooked-star/greybeard/releases/download/v2.1.0-rc.5/Greybeard-v2.1.0.pkg",
+    "version": "2.1.0-rc.6",
+    "download_url": "https://github.com/crooked-star/greybeard/releases/download/v2.1.0-rc.6/Greybeard-v2.1.0.pkg",
     "changelog": [
       "Update notifications with in-app download button",
       "Dual-repo release pipeline (private + public)"
     ],
-    "published": "2026-02-21T21:49:26Z"
+    "published": "2026-02-22T09:14:03Z"
   }
 }
