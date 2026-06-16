@@ -1,14 +1,13 @@
 {
   "stable": {
-    "version": "2.1.0",
-    "download_url": "https://github.com/crooked-star/greybeard/releases/download/v2.1.0/Greybeard-v2.1.0.pkg",
+    "version": "2.1.1",
+    "download_url": "https://github.com/crooked-star/greybeard/releases/download/v2.1.1/Greybeard-v2.1.1.pkg",
     "changelog": [
-      "Update notifications with in-app download button",
-      "Dual-repo release pipeline (private + public)",
-      "Chat now keeps full conversation context across reloads, service restarts, and after a session expires — replies no longer lose track of earlier messages",
-      "Long conversations stay within the model's context limit automatically, preventing dropped or truncated replies in extended chats"
+      "Update-notification popover now renders with a solid background (was transparent due to an undefined Tailwind token).",
+      "Release pipeline now verifies the packaged build matches the release tag and cleans stale installers, so the correct build always ships.",
+      "v2.1.0 shipped a pre-release build by mistake; 2.1.1 contains the intended code (full chat conversation-context rehydration and the latest model)."
     ],
-    "published": "2026-06-16T18:19:30Z"
+    "published": "2026-06-16T20:17:53Z"
   },
   "rc": null
 }
