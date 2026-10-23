@@ -1,13 +1,16 @@
 {
   "stable": {
-    "version": "2.1.1",
-    "download_url": "https://github.com/crooked-star/greybeard/releases/download/v2.1.1/Greybeard-v2.1.1.pkg",
+    "version": "2.2.0",
+    "download_url": "https://github.com/crooked-star/greybeard/releases/download/v2.2.0/Greybeard-v2.2.0.pkg",
     "changelog": [
-      "Update-notification popover now renders with a solid background (was transparent due to an undefined Tailwind token).",
-      "Release pipeline now verifies the packaged build matches the release tag and cleans stale installers, so the correct build always ships.",
-      "v2.1.0 shipped a pre-release build by mistake; 2.1.1 contains the intended code (full chat conversation-context rehydration and the latest model)."
+      "Sync concept generation through the API and CLI, turning a recipe and brief into a musical direction grounded in your plugin catalog.",
+      "Claude Fable 5.1 in the model picker, with high-effort reasoning.",
+      "Greybeard finds its service when another app occupies port 3000, and keeps checking if the service starts late without freezing the plugin window.",
+      "Update notifications refresh after 30 minutes so long-running sessions can discover new releases.",
+      "Installing an upgrade stops the old installed service so the next plugin load starts the updated code.",
+      "Updated the SQLite binding to prevent database cleanup crashes on Node 24."
     ],
-    "published": "2026-06-16T20:17:53Z"
+    "published": "2026-10-23T09:56:47Z"
   },
   "rc": null
 }
